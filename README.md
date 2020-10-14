@@ -1,0 +1,3 @@
+### Exercise 5.14
+
+Before entering a priority critical section, a thread calls PriorityLock::enter(priority). When the thread exits the critical section, it calls PriorityLock::exit(). If several threads are waiting to enter a priority critical section, the one with the numerically highest priority should be the next one allowed in. Implement PriorityLock using monitors (locks and condition variables) and following the programming standards defined in this chapter.
